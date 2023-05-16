@@ -1,6 +1,12 @@
 package ru.pczver.pattern.factoryMethod;
 
-public class Geep implements Car {
+public class Jeep implements Car {
+
+    @Override
+    public String toString() {
+        return "Jeep{}";
+    }
+
     @Override
     public void drive() {
 
